@@ -24,6 +24,11 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 > npm start
 ```
 
-###Documentation:
+### Documentation:
 
 1. http://reduxblog.herokuapp.com/
+
+### Install:
+
+1. react-router-dom@4.0.0 (ini bukan untuk dijalankan)
+2. react-router@4.0.0
