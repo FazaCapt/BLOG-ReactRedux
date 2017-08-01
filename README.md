@@ -32,3 +32,7 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 
 1. react-router-dom@4.0.0 (ini bukan untuk dijalankan)
 2. react-router@4.0.0
+
+#### Resource: 
+
+1. Redux Blog Post API Reference: http://reduxblog.herokuapp.com/
