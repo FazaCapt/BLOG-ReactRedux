@@ -25,10 +25,15 @@ class PostsNew extends Component {
     }
 
     onSubmit(values) {
-        this.props.createPost(values);
+        // this.props.history.push('/posts/new');
+        
+        this.props.createPost(values, () => {
+            this.props.history.push('/');
+        });        
     }
     render() {
         const { handleSubmit } = this.props;
+
         return (
             <form onSubmit={handleSubmit(this.onSubmit.bind(this))}>
                 <Field
