@@ -11,7 +11,6 @@ class PostsShow extends Component {
 
     onDeleteClick() {
         const { id } = this.props.match.params;
-        // this.props.deletePost(this.props.post.id);
         this.props.deletePost(id);
     }
 
@@ -26,8 +25,8 @@ class PostsShow extends Component {
             <div>
                 <Link to="/">Back To Index</Link> 
                 <button 
-                className="btn btn-danger pull-xs-right" 
-                onClick={this.onDeleteClick.bind(this)}
+                    className="btn btn-danger pull-xs-right" 
+                    onClick={this.onDeleteClick.bind(this)}
                 >    
                     Delete Post
                 </button>

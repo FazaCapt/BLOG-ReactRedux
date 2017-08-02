@@ -19,18 +19,16 @@ class PostsNew extends Component {
                 <div className="text-help">
                 {touched ? error: ''}
                 </div>
-            </div>
-            
+            </div>         
         );
     }
 
     onSubmit(values) {
-        // this.props.history.push('/posts/new');
-        
         this.props.createPost(values, () => {
             this.props.history.push('/');
         });        
     }
+    
     render() {
         const { handleSubmit } = this.props;
 

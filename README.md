@@ -38,3 +38,4 @@ Click [here](https://github.com/StephenGrider/ReactStarter/releases) then downlo
 1. Redux Blog Post API Reference: http://reduxblog.herokuapp.com/
 2. StephenGrider/JSPlaygrounds: https://libraries.io/github/StephenGrider/JSPlaygrounds , https://stephengrider.github.io/JSPlaygrounds/
 3. Redux -form: http://redux-form.com/7.0.3/
+4. https://www.udemy.com/react-redux/learn/v4/t/lecture/7244542?start=0
