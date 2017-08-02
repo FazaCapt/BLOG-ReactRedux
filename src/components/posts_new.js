@@ -77,5 +77,5 @@ export default reduxForm({
     validate,
     form: 'PostsNewForm'
 })(
-    connnect(null, { createPost })(PostsNew)
+    connect(null, { createPost })(PostsNew)
 );
